@@ -29,6 +29,7 @@ npm install
 
 ###### Start Server
 **Set Up the Database**: Make sure you have MySQL installed and running. Then, configure the database connection in the PassPouch server code.
+
 **Start the Application**: Run the following command to start the PassPouch application.
 
 ```
