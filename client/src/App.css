@@ -6,14 +6,13 @@ body {
   color: white;
 }
 
-h1 {
-  color: #78aba8;
-  font-size: 4rem;
-  font-weight: 600;
-}
-
 button {
   cursor: pointer;
+  font-family: "roboto-mono", monospace;
+}
+
+input {
+  font-family: "roboto-mono", monospace;
 }
 
 .App {
@@ -60,6 +59,7 @@ button {
 .Intro {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 0 20px;
@@ -67,6 +67,13 @@ button {
 
 .IntroText {
   padding: 30px;
+  width: 40%;
+}
+
+.IntroText h1 {
+  color: #78aba8;
+  font-size: 4rem;
+  font-weight: 600;
 }
 
 .Kangaroo {
@@ -86,24 +93,30 @@ button {
 
 .AddPassword button,
 input {
-  width: 20rem;
-  height: 2rem;
   border: none;
   border-radius: 7px;
   margin: 10px;
-  font-size: 1rem;
 }
 
 .AddPassword input {
+  width: 50%;
+  height: 2.5rem;
   padding-left: 20px;
+  font-size: 1rem;
+}
+
+.AddPassword input:focus {
+  outline: 4px solid #78aba8;
 }
 
 .AddPassword button {
-  width: 12rem;
-  height: 3rem;
+  width: 30%;
+  height: auto;
   background-color: #78aba8;
   color: white;
   font-weight: bold;
+  font-size: 1.2rem;
+  padding: 16px 20px;
 }
 
 .AddPassword button:hover {
@@ -140,12 +153,13 @@ input {
   margin-bottom: 10px;
 }
 
-.EyeIcon {
+.Icon {
   font-size: 2rem;
   color: #ef9c66;
   cursor: pointer;
+  padding: 0 10px;
 }
 
-.EyeIcon:hover {
-  color: #dd732c;
+.Icon:hover {
+  color: #c46323;
 }
