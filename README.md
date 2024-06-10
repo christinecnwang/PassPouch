@@ -9,7 +9,7 @@ PassPouch is a password manager application inspired by the comfort and safety o
 - **Flexible**: PassPouch allows you to add as many passwords as you need, ensuring you can store all your important credentials in one place.
 
 ![image](https://github.com/christinecnwang/PassPouch/assets/96750529/ec47cd03-d7d8-41c5-9a01-370751577757)
-![image](https://github.com/christinecnwang/PassPouch/assets/96750529/aeaa408f-e9af-40c9-95c8-39a2c552e54d) ![image](https://github.com/christinecnwang/PassPouch/assets/96750529/c24fd968-706a-42e9-9183-f0cf9c1aa600)
+![image](https://github.com/christinecnwang/PassPouch/assets/96750529/fd952c67-c205-4ab3-993f-d77e750e3224) ![image](https://github.com/christinecnwang/PassPouch/assets/96750529/c24fd968-706a-42e9-9183-f0cf9c1aa600)
 
 ### Installing and Starting
 
